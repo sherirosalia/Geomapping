@@ -1,14 +1,12 @@
-# Health_by_State
+# Seven days of earthquakes
 
-"One can never be too rich, or too thin" - Wallis Simpson
+This interactive map allows the user to view seven days of earthquake activity from the U.S. Government.
 
-This project utilizes freely available government census data to explore a potential correlation between finances and weight correlate.
+Utilization of the selection tool in the upper right hand corner changes basemap and quake data interaction.
 
-<img width="1280" alt="screen shot 2019-01-13 at 12 55 16 pm" src="https://github.com/sherirosalia/Health_by_State/blob/master/Geomapping/obesity_income_state.png">
+Coding tools for this visualization were from Leaflet.js, D3.js, html and css. Maps and data sources are courtesy of mapbox, esri_worldImagery and USGS.gov.
 
-There are additional health risk factors to play with in the interactive chart. An easy review of the data 
-is available in a linked table. 
+![](https://github.com/sherirosalia/Health_by_State/blob/master/dark.png)
+![](https://github.com/sherirosalia/Health_by_State/blob/master/color.png
 
-![](https://github.com/sherirosalia/Health_by_State/blob/master/table_state_data.png)
 
-Both are built using d3.js, javascript, html and css.
