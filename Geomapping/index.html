@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Leaflet CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+    crossorigin=""/>
+
+    <!--D3 cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+
+    <!-- Leaflet script-->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+    integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+    crossorigin=""></script>
+
+    <!-- Leaflet Timeline CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.timeline@1.2.1/dist/leaflet.timeline.min.js"></script>
+
+    <title>Earthquake Visualization</title>
+
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h1>Earthquake Visualization </h1>
+            <blockquote><p>We learn geology the morning after the earthquake." - Ralph Waldo Emerson</p></blockquote> 
+          </div>
+        </div>
+
+        <div class="map" id="mapid"></div>
+
+
+        <div class="row">
+            <div class="col-xs-12  col-md-9">
+              <div class="article">
+                <h4>Seven days of earthquakes</h4>
+      
+                     
+                   
+                <p>This interactive map allows the user to view seven days of earthquake activity from the U.S. Government. 
+                </p>
+                <p>Utilization of the selection tool in the upper right hand corner changes basemap and quake data interaction
+                 </p>
+                 <p> Coding tools for this visualization were from Leaflet.js, D3.js, html and css. Maps and data sources
+                    are courtesy of mapbox, esri_worldImagery and USGS.gov.</p>
+                 
+              </div>
+            </div>
+          </div>
+        <!-- Footer-->
+        <footer class="footer"><p>© Sheri Rosalia | 
+        
+            <a href="https://github.com/settings/profile" class="badge badge-light" target="_blank">Github </a> 
+            | 
+            <a href="https://linkedin.com" class="badge badge-light" target="_blank">Linkedin </a></p>
+            
+            </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script type="text/javascript" src="js/logic.js"></script>
+    <!-- API key -->
+    <script type="text/javascript" src="js/config.js"></script>
+
+  
+    
+  </body>
+</html>

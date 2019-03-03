@@ -1,0 +1,101 @@
+
+/* CSS for GeoJson */
+
+html, body, {
+    height: 100%;
+    width: 100%;
+    font-family: "PT Sans", Corbel, sans-serif;
+}
+
+h1 {
+	padding: 30px 00px 20px 0px;
+}
+h4 {
+	padding: 30px 00px 20px 0px;
+}
+
+
+blockquote {
+	width: 100%;
+	max-width:1170px;
+	margin: 30px auto;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 50px;
+	border-left:8px solid #bc831a;
+	border-right: 3px solid #bc831a;
+	box-shadow: 2px 2px 15px #ccc;
+	position: relative;
+	color: #2c3e50;
+	line-height: 1.3em;
+	text-align: justify;
+	font-family: "Georgia";
+}
+
+blockquote:before {
+	content: "\201C";
+	font-size: 30px;
+	position: absolute;
+	font-size: 60px;
+	font-weight: bold;
+	color: #757575;
+	left:10px;
+	top:26px;
+}
+
+#link {
+	background-color: beige;
+	text-decoration: none;
+	padding: 2px 3px;
+	color: #13705f;
+}
+
+#link:hover {
+color:black;
+}
+
+
+#mapid { height: 420px; }
+
+
+ul.legend{
+	background-color: white;
+	border-radius: 10px;
+	-webkit-padding-start: 0px;
+	padding: 15px;
+  }
+  ul.legend > li > div{
+	display: inline-block;
+	width:30px;
+	height:30px;
+	text-align: center;
+	margin: auto;
+	line-height: 30px;
+  }
+
+  /*map spacing*/
+
+
+
+  /* Footer Styling */
+.footer {
+   
+    flex-shrink: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 60px;
+    bottom: 0;
+    color:#fff;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background: #00003E; 
+    background: -webkit-linear-gradient(to right, #e3e4e5, #cccfd1);  
+    background: linear-gradient(to right, #e3e4e5, #cccfd1); 
+    text-align:center;
+}
+
+
+
+
+
+
