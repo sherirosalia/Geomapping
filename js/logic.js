@@ -102,7 +102,7 @@ function createMap(earthquakes) {
 
 	maxZoom: 18,
 
-	id: 'mapbox/light-v11',
+	id: 'mapbox://styles/mapbox/light-v10',
 	accessToken: API_KEY
 })
 
