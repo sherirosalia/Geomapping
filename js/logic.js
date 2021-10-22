@@ -102,7 +102,7 @@ function createMap(earthquakes) {
 
 	maxZoom: 18,
 
-	id: 'mapbox/streets-v11',
+	id: 'mapbox/light-v11',
 	accessToken: API_KEY
 })
 
@@ -122,13 +122,13 @@ function createMap(earthquakes) {
 	
   
 
-  // Define a baseMaps object to hold our base layers
-  var baseMaps = {
-    "Street Map": streetmap,
-    "Light Map": lightMap,
-    "Satellite": satellite,
+	// Define a baseMaps object to hold our base layers
+	var baseMaps = {
+	"Street Map": streetmap,
+	"Light Map": lightMap,
+	"Satellite": satellite,
 	"Dark Map": darkish
-  };
+ };
 
   // Create overlay object to hold our overlay layer
   var overlayMaps = {
